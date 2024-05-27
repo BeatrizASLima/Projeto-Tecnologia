@@ -48,3 +48,53 @@ main{
     float: left;
     position: relative;
 }
+button.slick-prev{
+    font-size: 0px;
+    border:none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position:absolute;
+    top: 40%;
+    left: 0;
+    background-color: #d5c27b;
+}
+button.slick-next {
+    font-size: 0px;
+    border:none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position:absolute;
+    top: 40%;
+    right: 0;
+    background-color: #d5c27b;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #d5c27b;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 600%;
+}
+li.slick-dots button {
+    background-color: #191970;
+}
+.slick-dots li {
+    padding-left: 10px ;
+    display: inline-block;
+}
