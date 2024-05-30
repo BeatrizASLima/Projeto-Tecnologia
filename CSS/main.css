@@ -11,7 +11,7 @@ ul{
     background-color: black;
     height: 60px;
 }
-main{
+main, .content{
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -29,7 +29,7 @@ main{
 .menu ul li {
     display: inline-block;
     color:black;
-    margin-left: 55px;
+    margin-left: 100px;
 }
 .menu ul li :hover{
     border-bottom: 3px solid 	#191970;
@@ -98,4 +98,36 @@ li.slick-active button {
     padding-left: 10px ;
     display: inline-block;
 }
-
+.texto1{
+    text-align:center ;
+}
+.texto1 h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #d5c27b;
+}
+.texto1 p {
+    font-size: 15px;
+    color:black;
+}
+.col-3{
+    text-align:center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+.texto1_2 p{
+    font-size: 15px;
+    color: black;
+}
+.texto2{
+    text-align:center;
+}
+.col-2{
+    text-align:center;
+    width: 30%;
+    float: left;
+    position: relative;
+}
