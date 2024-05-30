@@ -88,13 +88,14 @@ button.slick-next {
     margin: 0 auto;
     width: 50%;
     position: absolute;
-    left: 50%;
-    top: 600%;
+    left: 46%;
+    top: 95%;
 }
-li.slick-dots button {
-    background-color: #191970;
+li.slick-active button {
+    background-color: #d5c27b;
 }
 .slick-dots li {
     padding-left: 10px ;
     display: inline-block;
 }
+
