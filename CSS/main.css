@@ -4,6 +4,7 @@ body{
     height: 100%;
     margin: 0 auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
 }
 ul{
     padding: 0px!important;
@@ -12,6 +13,9 @@ ul{
     width: 100%;
     background-color: black;
     height: 62px;
+}
+.slider-principal{
+    display: block;
 }
 main, .content{
     margin: 0 auto;
@@ -205,6 +209,10 @@ h4 p {
 }
 .paris{
     text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
 }
 
 .texto4 {
@@ -235,6 +243,5 @@ h4 p {
 .texto4_1 img {
     display: block;
     margin: 20px auto; 
-    max-width: 100%;
-    height: auto;
+
 }
