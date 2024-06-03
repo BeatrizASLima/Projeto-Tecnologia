@@ -2,7 +2,7 @@ body {
     background-color: #f4f4f4;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 20px;
+    margin: 0 auto;
 }
 .menu1 ul{
     padding: 0px!important;
@@ -19,9 +19,9 @@ main, .content{
 }
 .header-2{
     background-color: #d5c27b;
-    width: 980px;
+    width: 100%;
     margin: 0 auto;
-    padding: 14px;
+    padding: 12px;
 }
 .menu-urls{
     height: 95px;
@@ -30,7 +30,7 @@ main, .content{
 .menu ul li {
     display: inline-block;
     color:black;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 .menu ul li :hover{
     border-bottom: 3px solid 	#191970;
@@ -79,20 +79,20 @@ th {
 td {
     background-color: #f9f9f9;
 }
-ul {
+.titulo1 ul {
     list-style-type: none;
     padding: 0;
 }
-ul li {
+.titulo1 ul li {
     background: #fff;
     margin: 10px 0;
     padding: 10px;
     border-left: 5px solid #d5c27b;
 }
-ul li ul {
+.titulo1 ul li ul {
     margin-top: 10px;
 }
-ul li ul li {
+.titulo1 ul li ul li {
     background: #f9f9f9;
     border-left: 5px solid #d5c27b;
 }
