@@ -1,0 +1,41 @@
+.menu1 ul{
+    padding: 0px!important;
+}
+.menu-principal{
+    width: 100%;
+    background-color: black;
+    height: 62px;
+}
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.header-2{
+    background-color: #d5c27b;
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px;
+}
+.menu ul li {
+    display: inline-block;
+    color:black;
+    margin-left: 200px;
+}
+.menu ul li :hover{
+    border-bottom: 3px solid 	#191970;
+}
+.menu ul li a:hover {
+    color: 	#191970; 
+}
+.menu ul li a {
+    color:black;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}

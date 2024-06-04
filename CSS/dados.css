@@ -1,6 +1,5 @@
 body {
     background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0 auto;
 }
@@ -22,10 +21,6 @@ main, .content{
     width: 100%;
     margin: 0 auto;
     padding: 12px;
-}
-.menu-urls{
-    height: 95px;
-    border-bottom: 3px solid black;
 }
 .menu ul li {
     display: inline-block;
@@ -52,7 +47,6 @@ main, .content{
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 20px;
     background-color: #f0f0f0;
 }
 h1, h2, h3 {
