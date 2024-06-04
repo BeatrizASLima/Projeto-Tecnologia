@@ -28,10 +28,7 @@ main, .content{
     margin: 0 auto;
     padding: 12px;
 }
-.menu-urls{
-    height: 85px;
-    border-bottom: 3px solid black;
-}
+
 .menu ul li {
     display: inline-block;
     color:black;
