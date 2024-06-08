@@ -128,6 +128,35 @@
             <p>Paris 2024 também promete inovações tecnológicas para melhorar a experiência dos espectadores, tanto nos locais de competição quanto para aqueles assistindo remotamente. A inclusão e diversidade serão pilares centrais, refletindo o espírito olímpico de unidade e igualdade.</p>
         </article>
     </section>
+    <section class="form-section">
+        <form action="#" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="country">País:</label>
+            <input type="text" id="country" name="country" required>
+
+            <label for="expectations">Expectativas:</label>
+            <textarea id="expectations" name="expectations" rows="4" required></textarea>
+
+            <label for="sports">Esportes Favoritos:</label>
+            <select id="sports" name="sports[]" multiple required>
+                <option value="athletics">Atletismo</option>
+                <option value="swimming">Natação</option>
+                <option value="gymnastics">Tênis</option>
+                <option value="cycling">Ciclismo</option>
+                <option value="tennis">Outros</option>
+            </select>
+
+            <label for="subscribe">Deseja receber atualizações por email?</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
 </main>
     <footer class="rodape">
         <section class="footer-content">
