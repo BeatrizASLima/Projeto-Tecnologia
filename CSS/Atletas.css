@@ -1,2 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header h1 {
+    text-align: center;
+    color: #d5c27b;
+}
+.cabecario{
+    width: 100%;
+    background-color: #d5c27b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.cabecario ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
 
+.cabecario ul li {
+    margin: 0 10px;
+}
+
+.cabecario ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cabecario ul li a:hover {
+    color: #d5c27b;
+}
+
+section.athlete {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section.athlete h2 {
+    color: #d5c27b;
+    margin-top: 0;
+}
+
+section.athlete img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+section.athlete h3 {
+    margin-bottom: 10px;
+}
+
+section.athlete p {
+    margin-bottom: 10px;
+}
 
