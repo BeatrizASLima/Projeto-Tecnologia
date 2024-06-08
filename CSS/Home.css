@@ -12,63 +12,6 @@ ul {
     list-style-type: none;
     margin: 0;
 }
-nav {
-    background-color: black;
-    color: white;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-.menu-principal ul {
-    padding: 0;
-    list-style-type: none;
-    margin: 0;
-}
-
-.menu-principal {
-    width: 100%;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-}
-
-.menu-principal li {
-    display: inline-block;
-    margin: 0 20px;
-}
-
-.menu-principal li a {
-    color: #d5c27b;
-    text-decoration: none;
-    font-size: 25px;
-    text-transform: uppercase;
-    transition: color 0.3s, border-bottom 0.3s;
-    margin-left: 150px
-}
-
-
-.menu-principal li a:hover {
-    color: #191970;
-}
-
-.menu-principal {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
-}
-
-.logo img {
-    max-height: 60px;
-}
-
-.menu-urls {
-    background-color: black;
-    padding: 12px;
-}
 
 .slider-principal {
     display: flex;
@@ -87,12 +30,6 @@ main, .content {
     margin: 0 auto;
     width: 980px;
     padding: 20px;
-}
-
-.col-100 {
-    width: 100%;
-    float: left;
-    position: relative;
 }
 
 button.slick-prev, button.slick-next {
@@ -164,6 +101,7 @@ li.slick-active button {
 }
 
 .col-3 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 15px;
     width: 30%;
@@ -183,6 +121,7 @@ li.slick-active button {
 }
 
 .col-2 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 50%;
     box-sizing: border-box;
