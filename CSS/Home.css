@@ -32,56 +32,6 @@ main, .content {
     padding: 20px;
 }
 
-button.slick-prev, button.slick-next {
-    font-size: 0;
-    border: none;
-    width: 25px;
-    height: 51px;
-    z-index: 9;
-    background-color: transparent;
-    position: absolute;
-    top: 40%;
-    background-color: #d5c27b;
-}
-
-button.slick-prev {
-    left: 0;
-}
-
-button.slick-next {
-    right: 0;
-}
-
-.slick-initialized {
-    overflow: hidden;
-}
-
-.slick-dots li button {
-    font-size: 0;
-    border: 5px solid #d5c27b;
-    width: 26px;
-    height: 26px;
-    background: transparent;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.slick-dots {
-    margin: 0 auto;
-    width: 50%;
-    position: absolute;
-    left: 46%;
-    top: 95%;
-}
-
-li.slick-active button {
-    background-color: #d5c27b;
-}
-
-.slick-dots li {
-    padding-left: 10px;
-    display: inline-block;
-}
 
 .texto1 {
     text-align: center;
