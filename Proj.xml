@@ -60,57 +60,6 @@ xsi:schemaLocation="http://127.0.0.1:5500 Validação.xsd">
                     </country>
                 </countries>
             </medal_table>
-            <records>
-                <subtitle>Recordes Mundiais e Olímpicos</subtitle>
-                <description>Os recordes mundiais e olímpicos representam as melhores performances já registradas em competições internacionais e nos Jogos Olímpicos. Aqui estão alguns dos recordes mais notáveis no atletismo e na natação:</description>
-                <sport>
-                    <name>Atletismo</name>
-                    <description>O atletismo é uma das modalidades mais antigas e populares das Olimpíadas. Confira os principais recordes mundiais e olímpicos:</description>
-                    <events>
-                        <event>
-                            <name>100 metros masculino</name>
-                            <records>
-                                <record type="mundial">Usain Bolt (Jamaica) - 9.58 segundos (2009)</record>
-                                <record type="olímpico">Usain Bolt (Jamaica) - 9.63 segundos (2012)</record>
-                            </records>
-                        </event>
-                        <event>
-                            <name>200 metros feminino</name>
-                            <records>
-                                <record type="mundial">Florence Griffith-Joyner (EUA) - 21.34 segundos (1988)</record>
-                                <record type="olímpico">Florence Griffith-Joyner (EUA) - 21.34 segundos (1988)</record>
-                            </records>
-                        </event>
-                        <event>
-                            <name>Maratona masculino</name>
-                            <records>
-                                <record type="mundial">Eliud Kipchoge (Quênia) - 2:01:39 (2018)</record>
-                                <record type="olímpico">Samuel Wanjiru (Quênia) - 2:06:32 (2008)</record>
-                            </records>
-                        </event>
-                    </events>
-                </sport>
-                <sport>
-                    <name>Natação</name>
-                    <description>A natação é uma modalidade que sempre atrai muita atenção nas Olimpíadas, com vários recordes sendo quebrados ao longo dos anos. Confira alguns dos principais recordes:</description>
-                    <events>
-                        <event>
-                            <name>100 metros livre masculino</name>
-                            <records>
-                                <record type="mundial">César Cielo (Brasil) - 46.91 segundos (2009)</record>
-                                <record type="olímpico">Caeleb Dressel (EUA) - 47.02 segundos (2021)</record>
-                            </records>
-                        </event>
-                        <event>
-                            <name>200 metros borboleta feminino</name>
-                            <records>
-                                <record type="mundial">Liu Zige (China) - 2:01.81 (2009)</record>
-                                <record type="olímpico">Jiao Liuyang (China) - 2:04.06 (2012)</record>
-                            </records>
-                        </event>
-                    </events>
-                </sport>
-            </records>
             <top_medalists>
                 <subtitle>Maiores Medalhistas Olímpicos</subtitle>
                 <description>Alguns atletas se destacam por suas conquistas extraordinárias, acumulando um grande número de medalhas ao longo de suas carreiras. Veja quem são os maiores medalhistas olímpicos de todos os tempos:</description>
