@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site xmlns ="http://127.0.0.1:5500"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://127.0.0.1:5500 Validação.xsd">
+    <Home>
+        <Previously>
+            <Figure>
+                <image src="./IMG/atletas.png" height="200px" alt="Atletas"/>
+                <title>Atletas</title>
+                <paragraph>Durante os jogos, os atletas competiam em uma variedade de eventos esportivos, incluindo corridas, lutas, lançamento de disco e javelin, entre outros. Além do mais, era uma oportunidade para os atletas demonstrarem sua habilidade e talento.</paragraph>
+            </Figure>
+            <Figure>
+                <image src="./IMG/zeus.png" height="200px" alt="Zeus"/>
+                <title>Zeus</title>
+                <paragraph>Esses jogos eram parte de um festival religioso em honra a Zeus, o rei dos deuses na mitologia grega.</paragraph>
+            </Figure>
+            <Figure>
+                <image src="./IMG/cidade_antiga.png" height="200px" alt="Cidades"/>
+                <title>Cidades</title>
+                <paragraph>Os Jogos Olímpicos antigos eram uma parte fundamental da cultura grega antiga e eram considerados um momento de grande importância social e política. Eles atraíam espectadores de toda a Grécia.</paragraph>
+            </Figure>
+        </Previously>
+    </Home>
+    <Dados>
+        <olympic_records>
+            <section>
+                <title>Recordes e Dados das Olimpíadas</title>
+            </section>
+            <medal_table>
+                <subtitle>Quadro de Medalhas</subtitle>
+                <description>O quadro de medalhas das Olimpíadas mostra os países com o maior número de conquistas ao longo da história dos Jogos. Aqui estão os países que lideram o ranking em termos de medalhas de ouro, prata e bronze:</description>
+                <countries>
+                    <country>
+                        <name>Estados Unidos</name>
+                        <gold>1180</gold>
+                        <silver>959</silver>
+                        <bronze>841</bronze>
+                        <total>2980</total>
+                    </country>
+                    <country>
+                        <name>Rússia (incl. União Soviética)</name>
+                        <gold>590</gold>
+                        <silver>486</silver>
+                        <bronze>480</bronze>
+                        <total>1556</total>
+                    </country>
+                    <country>
+                        <name>Grã-Bretanha</name>
+                        <gold>296</gold>
+                        <silver>320</silver>
+                        <bronze>332</bronze>
+                        <total>948</total>
+                    </country>
+                    <country>
+                        <name>China</name>
+                        <gold>275</gold>
+                        <silver>227</silver>
+                        <bronze>194</bronze>
+                        <total>696</total>
+                    </country>
+                </countries>
+            </medal_table>
+            <records>
+                <subtitle>Recordes Mundiais e Olímpicos</subtitle>
+                <description>Os recordes mundiais e olímpicos representam as melhores performances já registradas em competições internacionais e nos Jogos Olímpicos. Aqui estão alguns dos recordes mais notáveis no atletismo e na natação:</description>
+                <sport>
+                    <name>Atletismo</name>
+                    <description>O atletismo é uma das modalidades mais antigas e populares das Olimpíadas. Confira os principais recordes mundiais e olímpicos:</description>
+                    <events>
+                        <event>
+                            <name>100 metros masculino</name>
+                            <records>
+                                <record type="mundial">Usain Bolt (Jamaica) - 9.58 segundos (2009)</record>
+                                <record type="olímpico">Usain Bolt (Jamaica) - 9.63 segundos (2012)</record>
+                            </records>
+                        </event>
+                        <event>
+                            <name>200 metros feminino</name>
+                            <records>
+                                <record type="mundial">Florence Griffith-Joyner (EUA) - 21.34 segundos (1988)</record>
+                                <record type="olímpico">Florence Griffith-Joyner (EUA) - 21.34 segundos (1988)</record>
+                            </records>
+                        </event>
+                        <event>
+                            <name>Maratona masculino</name>
+                            <records>
+                                <record type="mundial">Eliud Kipchoge (Quênia) - 2:01:39 (2018)</record>
+                                <record type="olímpico">Samuel Wanjiru (Quênia) - 2:06:32 (2008)</record>
+                            </records>
+                        </event>
+                    </events>
+                </sport>
+                <sport>
+                    <name>Natação</name>
+                    <description>A natação é uma modalidade que sempre atrai muita atenção nas Olimpíadas, com vários recordes sendo quebrados ao longo dos anos. Confira alguns dos principais recordes:</description>
+                    <events>
+                        <event>
+                            <name>100 metros livre masculino</name>
+                            <records>
+                                <record type="mundial">César Cielo (Brasil) - 46.91 segundos (2009)</record>
+                                <record type="olímpico">Caeleb Dressel (EUA) - 47.02 segundos (2021)</record>
+                            </records>
+                        </event>
+                        <event>
+                            <name>200 metros borboleta feminino</name>
+                            <records>
+                                <record type="mundial">Liu Zige (China) - 2:01.81 (2009)</record>
+                                <record type="olímpico">Jiao Liuyang (China) - 2:04.06 (2012)</record>
+                            </records>
+                        </event>
+                    </events>
+                </sport>
+            </records>
+            <top_medalists>
+                <subtitle>Maiores Medalhistas Olímpicos</subtitle>
+                <description>Alguns atletas se destacam por suas conquistas extraordinárias, acumulando um grande número de medalhas ao longo de suas carreiras. Veja quem são os maiores medalhistas olímpicos de todos os tempos:</description>
+                <medalists>
+                    <medalist>
+                        <name>Michael Phelps</name>
+                        <country>EUA</country>
+                        <sport>Natação</sport>
+                        <gold>23</gold>
+                        <silver>3</silver>
+                        <bronze>2</bronze>
+                        <total>28</total>
+                    </medalist>
+                    <medalist>
+                        <name>Larisa Latynina</name>
+                        <country>URSS</country>
+                        <sport>Ginástica</sport>
+                        <gold>9</gold>
+                        <silver>5</silver>
+                        <bronze>4</bronze>
+                        <total>18</total>
+                    </medalist>
+                    <medalist>
+                        <name>Paavo Nurmi</name>
+                        <country>Finlândia</country>
+                        <sport>Atletismo</sport>
+                        <gold>9</gold>
+                        <silver>3</silver>
+                        <bronze>0</bronze>
+                        <total>12</total>
+                    </medalist>
+                    <medalist>
+                        <name>Mark Spitz</name>
+                        <country>EUA</country>
+                        <sport>Natação</sport>
+                        <gold>9</gold>
+                        <silver>1</silver>
+                        <bronze>1</bronze>
+                        <total>11</total>
+                    </medalist>
+                </medalists>
+            </top_medalists>
+        </olympic_records>
+    </Dados>
+    <Atletas>
+        <athlete id="michael-phelps">
+            <name>Michael Phelps</name>
+            <image src="./IMG/michaelphelps.png" alt="Michael Phelps"/>
+            <biography>
+                Michael Phelps, nadador norte-americano, é o atleta mais condecorado da história das Olimpíadas, com um total de 28 medalhas, sendo 23 de ouro. Participou de quatro edições dos Jogos Olímpicos: 2004, 2008, 2012 e 2016.
+            </biography>
+        </athlete>
+        <athlete id="larisa-latynina">
+            <name>Larisa Latynina</name>
+            <image src="./IMG/larissa.png" alt="Larisa Latynina"/>
+            <biography>
+                Larisa Latynina, ginasta soviética, detém o recorde de maior número de medalhas olímpicas em ginástica, com um total de 18 medalhas, sendo 9 de ouro. Competiu nas edições de 1956, 1960 e 1964.
+            </biography>
+        </athlete>
+        <athlete id="usain-bolt">
+            <name>Usain Bolt</name>
+            <image src="./IMG/usainbolt1.png" alt="Usain Bolt"/>
+            <biography>
+                Usain Bolt, velocista jamaicano, é considerado o homem mais rápido do mundo, com 8 medalhas de ouro olímpicas. Competiu nos Jogos Olímpicos de 2008, 2012 e 2016, conquistando títulos nas provas de 100m, 200m e 4x100m.
+            </biography>
+        </athlete>
+        <athlete id="paavo-nurmi">
+            <name>Paavo Nurmi</name>
+            <image src="./IMG/paavo.jpg" alt="Paavo Nurmi"/>
+            <biography>
+                Paavo Nurmi, corredor de longa distância finlandês, ganhou um total de 12 medalhas olímpicas, sendo 9 de ouro, durante as edições de 1920, 1924 e 1928. Ele é um dos atletas mais bem-sucedidos na história das Olimpíadas.
+            </biography>
+        </athlete>
+        <athlete id="mark">
+            <name>Mark Spitz</name>
+            <image src="./IMG/markspitz.jpg" alt="Mark Spitz"/>
+            <biography>
+                Mark Spitz é um dos maiores nadadores de todos os tempos. Ele ganhou sete medalhas de ouro nos Jogos de Munique de 1972.
+            </biography>
+        </athlete>
+        <athlete id="kenenisa">
+            <name>Kenenisa Bekele</name>
+            <image src="./IMG/kenenisa.jpg" alt="Kenenisa Bekele"/>
+            <biography>
+                Kenenisa Bekele é um fundista etíope, campeão olímpico em Atenas 2004 e Pequim 2008 e um dos maiores corredores de longa distância de todos os tempos. Maior vencedor da história do Campeonato Mundial de Cross-Country, entre 2003 e 2009. É o detentor de cinco recordes mundiais, três deles em pista coberta.
+            </biography>
+        </athlete>
+        <athlete id="jesse">
+            <name>Jesse Owens</name>
+            <image src="./IMG/jesseowens.jpg" alt="Jesse Owens"/>
+            <biography>
+                As Olimpíadas de 1936 foram realizadas na Alemanha nazista, sob o regime de Adolf Hitler, que usava os Jogos como uma plataforma para promover sua ideologia de superioridade racial ariana. As vitórias de Owens, um afro-americano, desafiaram diretamente as ideias racistas propagadas pelo regime nazista. Jesse Owens tornou-se um ícone mundial da luta contra o racismo e um exemplo de excelência esportiva. Seu desempenho inspirou futuras gerações de atletas e é frequentemente lembrado como um dos momentos mais importantes e significativos da história olímpica.
+            </biography>
+        </athlete>
+        <athlete id="teofilostevenson">
+            <name>Teofilo Stevenson</name>
+            <image src="./IMG/teofilo.jpg" alt="Teofilo Stevenson"/>
+            <biography>
+                Stevenson é famoso por sua lealdade à Cuba. Ele recebeu várias ofertas para se tornar profissional nos Estados Unidos, algumas das quais prometiam grandes somas de dinheiro. No entanto, ele rejeitou essas ofertas, preferindo permanecer amador e continuar representando Cuba. Ele também possui 3 medalhas olímpicas.
+            </biography>
+        </athlete>
+    </Atletas>
+    <Modalidade>
+        <sport>
+            <name>Atletismo</name>
+            <image src="IMG/atletismo.png" alt="Atletismo"/>
+            <curiosities>
+                <curiosity>O primeiro campeão olímpico da Era Moderna surgiu no atletismo, dos Estados Unidos, venceu a prova do salto triplo, em 6 de abril de 1986.</curiosity>
+                <curiosity>Atleta da Finlândia é o maior medalhista olímpico no atletismo (sim, mais que Usain Bolt). Paavo Nurmi venceu oito medalhas de ouro e três medalhas de prata, entre os Jogos da Antuérpia de 1920 e os de Amsterdã, em 1928.</curiosity>
+                <curiosity>Usain Bolt, da Jamaica, tem 8 medalhas de ouro. Elas foram conquistadas nas provas dos 100 metros, 200 metros, e revezamento 4x100m entre os Jogos Olímpicos de Pequim, em 2008, e Rio 2016.</curiosity>
+                <curiosity>101 países já foram medalhistas no atletismo das olimpíadas.</curiosity>
+            </curiosities>
+        </sport>
+        <sport>
+            <name>Ciclismo</name>
+            <image src="IMG/ciclismo.png" alt="Ciclismo"/>
+            <curiosities>
+                <curiosity>Ao longo de 120 anos de história do esporte, as nações europeias – particularmente Grã-Bretanha, França, Países Baixos e Itália – conquistaram a maioria das medalhas oferecidas nos Jogos.</curiosity>
+                <curiosity>Com registros no século XIX, mais precisamente em 1890, o ciclismo surgiu em paralelo à uma época em que as bicicletas estavam passando por melhorias significativas em suas tecnologias, cooperando para que o ciclismo também se desenvolvesse.</curiosity>
+                <curiosity>Na olimpíada de Atlanta, em 1996, adicionou-se a modalidade do ciclismo de montanha, conhecido como cross-country, praticado em Mountain Bikes.</curiosity>
+                <curiosity>Na última olimpíada, disputada em Tóquio em 2021, tivemos pela primeira vez a modalidade do BMX estilo livre como uma modalidade do ciclismo nas olimpíadas, mais um grande passo para o reconhecimento desse esporte.</curiosity>
+            </curiosities>
+        </sport>
+        <sport>
+            <name>Tênis</name>
+            <image src="IMG/tenis.png" alt="Tênis"/>
+            <curiosities>
+                <curiosity>O precursor do tênis foi o “jeu de paume”, ou “jogo da mão”, que se originou na França no século 11.</curiosity>
+                <curiosity>O tênis Olímpico é disputado em provas de simples para homens e mulheres e duplas masculinas, femininas e mistas. As partidas de simples são disputadas em melhor de três sets com um tie-break padrão em cada set, incluindo o último.</curiosity>
+                <curiosity>O tênis foi disputado de forma esporádica ao longo da história dos Jogos Olímpicos. Foi um dos esportes disputados na primeira edição da Olimpíada moderna em Atenas, em 1896.</curiosity>
+                <curiosity>Nos últimos anos, a medalha de ouro foi conquistada por várias superestrelas, como Rafael Nadal, campeão Olímpico de simples em 2008 e duplas em 2016, Stan Wawrinka e Roger Federer, campeões olímpicos de duplas em 2008, além de Serena e Venus Williams, que conquistaram oito títulos Olímpicos entre elas.</curiosity>
+            </curiosities>
+        </sport>
+        <sport>
+            <name>Natação</name>
+            <image src="IMG/natacao.png" alt="Natação"/>
+            <curiosities>
+                <curiosity>O ato de nadar remonta aos tempos pré-históricos, mas foi apenas no século 19 que se tornou amplamente praticado como esporte competitivo.</curiosity>
+                <curiosity>Na época, a maioria dos nadadores usava o nado peito, ou uma forma dele. Mais tarde, uma variedade maior de estilos foi adicionada às provas de natação, atualmente presente nos Jogos Olímpicos.</curiosity>
+                <curiosity>Os quatro estilos das provas Olímpicas da natação – individuais e de revezamento – são peito, borboleta, costas e crawl; o crawl é usado predominantemente em provas de estilo livre e, dessa forma, o termo “livre” é frequentemente usado como sinônimo.</curiosity>
+                <curiosity>A natação esteve presente em todos os Jogos Olímpicos da era moderna. Embora as primeiras provas Olímpicas ocorreram em ambiente natural (os atletas competiram na baía de Zea nos Jogos Olímpicos Atenas 1896), desde os Jogos de 1908, em Londres, as provas acontecem em uma piscina, levando à criação da Federação Internacional de Natação (FINA) no mesmo ano - atualmente conhecida como World Aquatics.</curiosity>
+            </curiosities>
+        </sport>
+    </Modalidade>
+</site>     

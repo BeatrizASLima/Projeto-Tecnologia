@@ -1,84 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://127.0.0.1:5500"
+xmlns="http://127.0.0.1:5500"
+elementFormDefault="qualified">
 
     <xs:element name="site">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="page" maxOccurs="unbounded">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="title" type="xs:string"/>
-                            <xs:element name="section" maxOccurs="unbounded">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="header" type="xs:string"/>
-                                        <xs:element name="paragraph" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
-                                        <xs:element name="item" maxOccurs="unbounded" minOccurs="0">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="title" type="xs:string"/>
-                                                    <xs:element name="description" type="xs:string"/>
-                                                </xs:sequence>
-                                            </xs:complexType>
-                                        </xs:element>
-                                        <xs:element name="list" minOccurs="0">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="item" maxOccurs="unbounded">
-                                                        <xs:complexType>
-                                                            <xs:sequence>
-                                                                <xs:element name="event" type="xs:string"/>
-                                                                <xs:element name="worldRecord" type="xs:string"/>
-                                                                <xs:element name="olympicRecord" type="xs:string"/>
-                                                            </xs:sequence>
-                                                        </xs:complexType>
-                                                    </xs:element>
-                                                </xs:sequence>
-                                            </xs:complexType>
-                                        </xs:element>
-                                        <xs:element name="table" minOccurs="0">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="row" maxOccurs="unbounded">
-                                                        <xs:complexType>
-                                                            <xs:sequence>
-                                                                <xs:element name="country" type="xs:string"/>
-                                                                <xs:element name="gold" type="xs:int"/>
-                                                                <xs:element name="silver" type="xs:int"/>
-                                                                <xs:element name="bronze" type="xs:int"/>
-                                                                <xs:element name="total" type="xs:int"/>
-                                                            </xs:sequence>
-                                                        </xs:complexType>
-                                                    </xs:element>
-                                                </xs:sequence>
-                                            </xs:complexType>
-                                        </xs:element>
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-                            <xs:element name="athlete" maxOccurs="unbounded" minOccurs="0">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="name" type="xs:string"/>
-                                        <xs:element name="sport" type="xs:string"/>
-                                        <xs:element name="medals">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="gold" type="xs:int"/>
-                                                    <xs:element name="silver" type="xs:int"/>
-                                                    <xs:element name="bronze" type="xs:int"/>
-                                                    <xs:element name="total" type="xs:int"/>
-                                                </xs:sequence>
-                                            </xs:complexType>
-                                        </xs:element>
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
+                <xs:element name="home" type="homeType"/>
+                <xs:element name="Dados" type="DadosType"/>
+                <xs:element name="Atletas" type="AtletasType"/>
+                <xs:element name="Modalidade" type="ModalidadeType"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
+    <xs:complexType name="homeType">
+        <xs:sequence>
+            <xs:element name="Previously" type="PreviouslyType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="PreviouslyType">
+        <xs:sequence>
+            <xs:element name="Figure" type="FigureType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="FigureType">
+        <xs:sequence>
+            <xs:element name="image" type="ImageType"/>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="paragraph" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ImageType">
+        <xs:attribute name="src" type="xs:string" use="required"/>
+        <xs:attribute name="height" type="xs:string" use="optional"/>
+        <xs:attribute name="alt" type="xs:string" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="DadosType">
+        <xs:sequence>
+            <xs:element name="olympic_records" type="OlympicRecordsType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="OlympicRecordsType">
+        <xs:sequence>
+            <xs:element name="section">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="title" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="medal_table" type="MedalTableType"/>
+            <xs:element name="records" type="RecordsType"/>
+            <xs:element name="top_medalists" type="TopMedalistsType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="MedalTableType">
+        <xs:sequence>
+            <xs:element name="subtitle" type="xs:string"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="countries">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="country" type="CountryType" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="CountryType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="gold" type="xs:integer"/>
+            <xs:element name="silver" type="xs:integer"/>
+            <xs:element name="bronze" type="xs:integer"/>
+            <xs:element name="total" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- RecordsType definition -->
+    <xs:complexType name="RecordsType">
+        <xs:sequence>
+            <xs:element name="subtitle" type="xs:string"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="sport" type="SportType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="SportType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="events">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="event" type="EventType" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="EventType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="records">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="record" type="RecordType" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="RecordType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="type" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="TopMedalistsType">
+        <xs:sequence>
+            <xs:element name="subtitle" type="xs:string"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="medalists">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="medalist" type="MedalistType" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="MedalistType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="country" type="xs:string"/>
+            <xs:element name="sport" type="xs:string"/>
+            <xs:element name="gold" type="xs:integer"/>
+            <xs:element name="silver" type="xs:integer"/>
+            <xs:element name="bronze" type="xs:integer"/>
+            <xs:element name="total" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="AtletasType">
+        <xs:sequence>
+            <xs:element name="athlete" type="AthleteType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="AthleteType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="image" type="ImageType"/>
+            <xs:element name="biography" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="ModalidadeType">
+        <xs:sequence>
+            <xs:element name="sport" type="SportWithCuriositiesType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="SportWithCuriositiesType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="image" type="ImageType"/>
+            <xs:element name="curiosities">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="curiosity" type="xs:string" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
 
 </xs:schema>
