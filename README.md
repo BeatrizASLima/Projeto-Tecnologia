@@ -40,6 +40,7 @@ Um projeto que demonstra o uso de HTML e CSS para criar um site de m√∫ltiplas p√
 * [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 * [XML](https://www.w3.org/XML/)
 * [XSD](https://www.w3.org/XML/Schema)
+* [DOM com Java](https://docs.oracle.com/javase/8/docs/api/org/w3c/dom/package-summary.html)
 
 ### Frameworks e Bibliotecas
 
