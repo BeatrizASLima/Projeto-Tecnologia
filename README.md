@@ -9,18 +9,20 @@ Um projeto que demonstra o uso de HTML e CSS para criar um site de múltiplas p�
 ## Organização do Repositório
 
 _Ajude o leitor a navegar descrevendo como o repositório está organizado, fornecendo links_
-* **Código fonte** está na pasta [src/Projeto](src/):
-  - **[src](Modalidades.html)**: Página inicial do projeto com informações gerais sobre as Olimpíadas.
-  - **src/Atletas.html**: Página com informações sobre os atletas das Olimpíadas.
-  - **src/Dados.html**: Página que apresenta dados e estatísticas das Olimpíadas.
-  - **src/Modalidade.html**: Página que descreve as diferentes modalidades esportivas presentes nas Olimpíadas.
-  - **src/CSS.css**: Arquivo de estilos CSS que define a aparência e layout das páginas do projeto.
+* **Código fonte** está na pasta:
+  - **[src](Home.html)Home**: Página inicial do projeto com informações gerais sobre as Olimpíadas.
+  - **[src](Atletas.html)Atletas**: Página com informações sobre os atletas das Olimpíadas.
+  - **[src](dados-dom.html) ou [src](Dados.html) Dados**: Página que apresenta dados e estatísticas das Olimpíadas.
+  - **[src](Modalidades.html)Modalidade**: Página que descreve as diferentes modalidades esportivas presentes nas Olimpíadas.
+  - **[src](CSS)CSS**: Arquivo de estilos CSS que define a aparência e layout das páginas do projeto.
+  - **[src](Projeto.xml)XML**: Arquivo de XML do projeto.
+  - **[src](Validação.xsd)XSD**: Arquivo XSD para a validação do xml do projeto.
 
 * **Documentação** está na pasta [doc](doc/):
-  - **c1.md**: [Capítulo 1](doc/c1.md) - Apresentação do Projeto: Descrição geral do projeto, objetivos e contexto.
-  - **c2.md**: [Capítulo 2](doc/c2.md) - Protótipo e Mapa do Site: Detalhes do design da interface do usuário, protótipos e mapa do site.
-  - **c3.md**: [Capítulo 3](doc/c3.md) - Produto: Descrição do produto final, funcionalidades implementadas e tecnologias utilizadas.
-  - **c4.md**: [Capítulo 4](doc/c4.md) - Apresentação: Preparação para a apresentação final, incluindo slides e pontos de discussão.
+  - **c1.md**: [Capítulo 1](c1.md) - Apresentação do Projeto: Descrição geral do projeto, objetivos e contexto.
+  - **c2.md**: [Capítulo 2](c2.md) - Protótipo e Mapa do Site: Detalhes do design da interface do usuário, protótipos e mapa do site.
+  - **c3.md**: [Capítulo 3](c3.md) - Produto: Descrição do produto final, funcionalidades implementadas e tecnologias utilizadas.
+  - **c4.md**: [Capítulo 4](c4.md) - Apresentação: Preparação para a apresentação final, incluindo slides e pontos de discussão.
 
 
 ## Galeria
