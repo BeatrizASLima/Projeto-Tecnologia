@@ -9,8 +9,8 @@ Um projeto que demonstra o uso de HTML e CSS para criar um site de múltiplas p�
 ## Organização do Repositório
 
 _Ajude o leitor a navegar descrevendo como o repositório está organizado, fornecendo links_
-* **Código fonte** está na pasta [src](src/):
-  - **[src](src/Home.html)**: Página inicial do projeto com informações gerais sobre as Olimpíadas.
+* **Código fonte** está na pasta [src/Projeto](src/):
+  - **[src](/Home.html)**: Página inicial do projeto com informações gerais sobre as Olimpíadas.
   - **src/Atletas.html**: Página com informações sobre os atletas das Olimpíadas.
   - **src/Dados.html**: Página que apresenta dados e estatísticas das Olimpíadas.
   - **src/Modalidade.html**: Página que descreve as diferentes modalidades esportivas presentes nas Olimpíadas.
