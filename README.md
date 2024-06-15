@@ -9,14 +9,19 @@ Um projeto que demonstra o uso de HTML e CSS para criar um site de múltiplas p�
 ## Organização do Repositório
 
 _Ajude o leitor a navegar descrevendo como o repositório está organizado, fornecendo links_
-* **Código fonte** 
-    - **Home.html**: Página inicial do projeto com informações gerais sobre as Olimpíadas.
+* **Código fonte** está na pasta [src](src/):
+  - **Home.html**: Página inicial do projeto com informações gerais sobre as Olimpíadas.
   - **Atletas.html**: Página com informações sobre os atletas das Olimpíadas.
   - **Dados.html**: Página que apresenta dados e estatísticas das Olimpíadas.
   - **Modalidade.html**: Página que descreve as diferentes modalidades esportivas presentes nas Olimpíadas.
   - **CSS.css**: Arquivo de estilos CSS que define a aparência e layout das páginas do projeto.
 
-* Documentação está na pasta [doc](doc/).
+* **Documentação** está na pasta [doc](doc/):
+  - **c1.md**: [Capítulo 1](doc/c1.md) - Apresentação do Projeto: Descrição geral do projeto, objetivos e contexto.
+  - **c2.md**: [Capítulo 2](doc/c2.md) - Protótipo e Mapa do Site: Detalhes do design da interface do usuário, protótipos e mapa do site.
+  - **c3.md**: [Capítulo 3](doc/c3.md) - Produto: Descrição do produto final, funcionalidades implementadas e tecnologias utilizadas.
+  - **c4.md**: [Capítulo 4](doc/c4.md) - Apresentação: Preparação para a apresentação final, incluindo slides e pontos de discussão.
+
 
 ## Galeria
 
