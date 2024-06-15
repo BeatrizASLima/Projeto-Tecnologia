@@ -4,31 +4,28 @@ Repositório para hospedar o projeto desenvolvido para 'nome da disciplina', uma
 
 ## Descrição do Tema
 
-Um projeto que demonstra o uso de HTML e CSS para criar um site de múltiplas páginas sobre as Olimpíadas. Esta documentação é escrita usando [Markdown](https://www.markdownguide.org/). Aqui está um [link para a sintaxe básica](https://www.markdownguide.org/basic-syntax), mas uma [sintaxe estendida](https://www.markdownguide.org/extended-syntax/) também está disponível. Se você está começando com Markdown, pode querer tentar um [Tutorial de Markdown](https://www.markdowntutorial.com/) e ler a seção [primeiros passos](https://www.markdownguide.org/getting-started/).
+Um projeto que demonstra o uso de HTML e CSS para criar um site de múltiplas páginas sobre as Olimpíadas. 
 
 ## Organização do Repositório
 
-_Ajude o leitor a navegar descrevendo como o repositório está organizado, fornecendo links_
 * **Código fonte** está na pasta:
   - **[src](home.html) Home**: Página inicial do projeto com informações gerais sobre as Olimpíadas.
   - **[src](Atletas.html) Atletas**: Página com informações sobre os atletas das Olimpíadas.
-  - **[src](dados-dom.html) ou [src](Dados.html) Dados**: Página que apresenta dados e estatísticas das Olimpíadas.
+  - **[src](Dados.html) Dados**: Página que apresenta dados e estatísticas das Olimpíadas.
   - **[src](Modalidades.html) Modalidade**: Página que descreve as diferentes modalidades esportivas presentes nas Olimpíadas.
   - **[src](CSS) CSS**: Arquivo de estilos CSS que define a aparência e layout das páginas do projeto.
   - **[src](Projeto.xml) XML**: Arquivo de XML do projeto.
   - **[src](Validação.xsd) XSD**: Arquivo XSD para a validação do xml do projeto.
+  - **[src](dados-dom.html) ou java**: Pasta contendo o código Java para manipulação de XML usando DOM.
 
 * **Documentação** está na pasta [src](markdown):
-  - **c1.md**: [Capítulo 1](c1.md) - Apresentação do Projeto: Descrição geral do projeto, objetivos e contexto.
-  - **c2.md**: [Capítulo 2](c2.md) - Protótipo e Mapa do Site: Detalhes do design da interface do usuário, protótipos e mapa do site.
-  - **c3.md**: [Capítulo 3](c3.md) - Produto: Descrição do produto final, funcionalidades implementadas e tecnologias utilizadas.
-  - **c4.md**: [Capítulo 4](c4.md) - Apresentação: Preparação para a apresentação final, incluindo slides e pontos de discussão.
+  - **c1.md**: [Capítulo 1] - Apresentação do Projeto: Descrição geral do projeto, objetivos e contexto.
+  - **c2.md**: [Capítulo 2] - Protótipo e Mapa do Site: Detalhes do design da interface do usuário, protótipos e mapa do site.
+  - **c3.md**: [Capítulo 3]- Produto: Descrição do produto final, funcionalidades implementadas e tecnologias utilizadas.
+  - **c4.md**: [Capítulo 4] - Apresentação: Preparação para a apresentação final, incluindo slides e pontos de discussão.
 
 
 ## Galeria
-
-_Por favor, forneça uma galeria do resultado final, com pequenas imagens_
-Uma [tabela](https://www.markdownguide.org/extended-syntax/#tables) pode ser útil para organizar as imagens.
 
 | Página | Captura de Tela |
 |--------|-----------------|
@@ -39,18 +36,16 @@ Uma [tabela](https://www.markdownguide.org/extended-syntax/#tables) pode ser út
 
 ## Tecnologias
 
-_Indique as tecnologias que você usou neste projeto. Por favor, forneça links para que o usuário possa ler mais sobre essas tecnologias._
 * [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 * [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* [XML](https://www.w3.org/XML/)
+* [XSD](https://www.w3.org/XML/Schema)
 
 ### Frameworks e Bibliotecas
 
-_Você usou alguma biblioteca adicional? Descreva-as aqui._
-* [Bootstrap](https://getbootstrap.com/)
-* [FontAwesome](https://fontawesome.com/)
-
+* Não
 ## Relatório
-_Por favor, adicione pelo menos uma seção (um arquivo) por capítulo. Mas você pode adicionar mais._
+
 
 ### Apresentação do Projeto
 * Capítulo 1: [Apresentação do Projeto](doc/c1.md)
