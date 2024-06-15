@@ -10,14 +10,14 @@ Um projeto que demonstra o uso de HTML e CSS para criar um site de múltiplas p�
 
 _Ajude o leitor a navegar descrevendo como o repositório está organizado, fornecendo links_
 * **Código fonte** está na pasta:
-  - **[src](home.html)Home**: Página inicial do projeto com informações gerais sobre as Olimpíadas.
-  - **[src](Atletas.html)Atletas**: Página com informações sobre os atletas das Olimpíadas.
+  - **[src](home.html) Home**: Página inicial do projeto com informações gerais sobre as Olimpíadas.
+  - **[src](Atletas.html) Atletas**: Página com informações sobre os atletas das Olimpíadas.
   - **[src](dados-dom.html) ou [src](Dados.html) Dados**: Página que apresenta dados e estatísticas das Olimpíadas.
-  - **[src](Modalidades.html)Modalidade**: Página que descreve as diferentes modalidades esportivas presentes nas Olimpíadas.
-  - **[src](CSS)CSS**: Arquivo de estilos CSS que define a aparência e layout das páginas do projeto.
-  - **[src](Projeto.xml)XML**: Arquivo de XML do projeto.
-  - **[src](Validação.xsd)XSD**: Arquivo XSD para a validação do xml do projeto.
-  
+  - **[src](Modalidades.html) Modalidade**: Página que descreve as diferentes modalidades esportivas presentes nas Olimpíadas.
+  - **[src](CSS) CSS**: Arquivo de estilos CSS que define a aparência e layout das páginas do projeto.
+  - **[src](Projeto.xml) XML**: Arquivo de XML do projeto.
+  - **[src](Validação.xsd) XSD**: Arquivo XSD para a validação do xml do projeto.
+
 * **Documentação** está na pasta [src](markdown):
   - **c1.md**: [Capítulo 1](c1.md) - Apresentação do Projeto: Descrição geral do projeto, objetivos e contexto.
   - **c2.md**: [Capítulo 2](c2.md) - Protótipo e Mapa do Site: Detalhes do design da interface do usuário, protótipos e mapa do site.
