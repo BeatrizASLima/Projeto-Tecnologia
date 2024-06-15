@@ -10,7 +10,7 @@ Um projeto que demonstra o uso de HTML e CSS para criar um site de múltiplas p�
 
 _Ajude o leitor a navegar descrevendo como o repositório está organizado, fornecendo links_
 * **Código fonte** está na pasta:
-  - **[src](Home.html)Home**: Página inicial do projeto com informações gerais sobre as Olimpíadas.
+  - **[src](home.html)Home**: Página inicial do projeto com informações gerais sobre as Olimpíadas.
   - **[src](Atletas.html)Atletas**: Página com informações sobre os atletas das Olimpíadas.
   - **[src](dados-dom.html) ou [src](Dados.html) Dados**: Página que apresenta dados e estatísticas das Olimpíadas.
   - **[src](Modalidades.html)Modalidade**: Página que descreve as diferentes modalidades esportivas presentes nas Olimpíadas.
@@ -18,7 +18,7 @@ _Ajude o leitor a navegar descrevendo como o repositório está organizado, forn
   - **[src](Projeto.xml)XML**: Arquivo de XML do projeto.
   - **[src](Validação.xsd)XSD**: Arquivo XSD para a validação do xml do projeto.
   
-* **Documentação** está na pasta [doc](doc/):
+* **Documentação** está na pasta [src](markdown):
   - **c1.md**: [Capítulo 1](c1.md) - Apresentação do Projeto: Descrição geral do projeto, objetivos e contexto.
   - **c2.md**: [Capítulo 2](c2.md) - Protótipo e Mapa do Site: Detalhes do design da interface do usuário, protótipos e mapa do site.
   - **c3.md**: [Capítulo 3](c3.md) - Produto: Descrição do produto final, funcionalidades implementadas e tecnologias utilizadas.
