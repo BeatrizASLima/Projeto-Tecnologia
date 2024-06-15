@@ -17,7 +17,7 @@ _Ajude o leitor a navegar descrevendo como o repositório está organizado, forn
   - **[src](CSS)CSS**: Arquivo de estilos CSS que define a aparência e layout das páginas do projeto.
   - **[src](Projeto.xml)XML**: Arquivo de XML do projeto.
   - **[src](Validação.xsd)XSD**: Arquivo XSD para a validação do xml do projeto.
-
+  
 * **Documentação** está na pasta [doc](doc/):
   - **c1.md**: [Capítulo 1](c1.md) - Apresentação do Projeto: Descrição geral do projeto, objetivos e contexto.
   - **c2.md**: [Capítulo 2](c2.md) - Protótipo e Mapa do Site: Detalhes do design da interface do usuário, protótipos e mapa do site.
