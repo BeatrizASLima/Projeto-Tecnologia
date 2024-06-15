@@ -10,11 +10,11 @@ Um projeto que demonstra o uso de HTML e CSS para criar um site de múltiplas p�
 
 _Ajude o leitor a navegar descrevendo como o repositório está organizado, fornecendo links_
 * **Código fonte** está na pasta [src](src/):
-  - **Home.html**: Página inicial do projeto com informações gerais sobre as Olimpíadas.
-  - **Atletas.html**: Página com informações sobre os atletas das Olimpíadas.
-  - **Dados.html**: Página que apresenta dados e estatísticas das Olimpíadas.
-  - **Modalidade.html**: Página que descreve as diferentes modalidades esportivas presentes nas Olimpíadas.
-  - **CSS.css**: Arquivo de estilos CSS que define a aparência e layout das páginas do projeto.
+  - **(src/Home.html)**: Página inicial do projeto com informações gerais sobre as Olimpíadas.
+  - **src/Atletas.html**: Página com informações sobre os atletas das Olimpíadas.
+  - **src/Dados.html**: Página que apresenta dados e estatísticas das Olimpíadas.
+  - **src/Modalidade.html**: Página que descreve as diferentes modalidades esportivas presentes nas Olimpíadas.
+  - **src/CSS.css**: Arquivo de estilos CSS que define a aparência e layout das páginas do projeto.
 
 * **Documentação** está na pasta [doc](doc/):
   - **c1.md**: [Capítulo 1](doc/c1.md) - Apresentação do Projeto: Descrição geral do projeto, objetivos e contexto.
