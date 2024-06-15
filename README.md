@@ -19,10 +19,10 @@ Uma [tabela](https://www.markdownguide.org/extended-syntax/#tables) pode ser út
 
 | Página | Captura de Tela |
 |--------|-----------------|
-| Home | ![Página Home](path/to/home-screenshot.png) |
-| Atletas | ![Página Atletas](path/to/atletas-screenshot.png) |
-| Dados | ![Página Dados](path/to/dados-screenshot.png) |
-| Modalidade | ![Página Modalidade](path/to/modalidade-screenshot.png) |
+| Home | ![Página Home](C:\Users\beatr\Desktop\Projeto\IMG\Tela_Home.png.png) |
+| Atletas | ![Página Atletas](C:\Users\beatr\Desktop\Projeto\IMG\Tela_Atletas.png) |
+| Dados | ![Página Dados](C:\Users\beatr\Desktop\Projeto\IMG\Tela_Dados.png) |
+| Modalidade | ![Página Modalidade](C:\Users\beatr\Desktop\Projeto\IMG\Tele_Modalidades.png) |
 
 ## Tecnologias
 
