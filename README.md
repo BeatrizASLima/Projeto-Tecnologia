@@ -9,7 +9,13 @@ Um projeto que demonstra o uso de HTML e CSS para criar um site de múltiplas p�
 ## Organização do Repositório
 
 _Ajude o leitor a navegar descrevendo como o repositório está organizado, fornecendo links_
-* **Código fonte** está na pasta [src](src/).
+* **Código fonte** 
+    - **Home.html**: Página inicial do projeto com informações gerais sobre as Olimpíadas.
+  - **Atletas.html**: Página com informações sobre os atletas das Olimpíadas.
+  - **Dados.html**: Página que apresenta dados e estatísticas das Olimpíadas.
+  - **Modalidade.html**: Página que descreve as diferentes modalidades esportivas presentes nas Olimpíadas.
+  - **CSS.css**: Arquivo de estilos CSS que define a aparência e layout das páginas do projeto.
+
 * Documentação está na pasta [doc](doc/).
 
 ## Galeria
@@ -19,10 +25,10 @@ Uma [tabela](https://www.markdownguide.org/extended-syntax/#tables) pode ser út
 
 | Página | Captura de Tela |
 |--------|-----------------|
-| Home | ![Página Home](Tela_Home.png) |
-| Atletas | ![Página Atletas](Tela_Atletas.png) |
-| Dados | ![Página Dados](Tela_Dados.png) |
-| Modalidade | ![Página Modalidade](Tele_Modalidades.png) |
+| Home | ![Página Home](/IMG/Tela_Home.png) |
+| Atletas | ![Página Atletas](/IMG/Tela_Atletas.png) |
+| Dados | ![Página Dados](/IMG/Tela_Dados.png) |
+| Modalidade | ![Página Modalidade](/IMG/Tele_Modalidades.png) |
 
 ## Tecnologias
 
