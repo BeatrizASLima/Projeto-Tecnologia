@@ -43,7 +43,7 @@ Um projeto que demonstra o uso de HTML e CSS para criar um site de múltiplas p�
 * [DOM com Java](https://docs.oracle.com/javase/8/docs/api/org/w3c/dom/package-summary.html)
 
 ### Frameworks e Bibliotecas
-
+Usei o Formspree para enviar email
 ## Relatório
 Na pasta [src](markdown):
   - **c1.md**: [Capítulo 1] - Apresentação do Projeto: Descrição geral do projeto, objetivos e contexto.
