@@ -44,18 +44,12 @@ Um projeto que demonstra o uso de HTML e CSS para criar um site de múltiplas p�
 
 ### Frameworks e Bibliotecas
 
-* Não
 ## Relatório
-
-
-### Apresentação do Projeto
-* Capítulo 1: [src](markdonw)
-### Interface do Usuário
-* Capítulo 2: [src](c1.md)
-### Produto
-* Capítulo 3: [src](c1.md)
-### Apresentação
-* Capítulo 4: [src](c1.md)
+Na pasta [src](markdown):
+  - **c1.md**: [Capítulo 1] - Apresentação do Projeto: Descrição geral do projeto, objetivos e contexto.
+  - **c2.md**: [Capítulo 2] - Protótipo e Mapa do Site: Detalhes do design da interface do usuário, protótipos e mapa do site.
+  - **c3.md**: [Capítulo 3]- Produto: Descrição do produto final, funcionalidades implementadas e tecnologias utilizadas.
+  - **c4.md**: [Capítulo 4] - Apresentação: Preparação para a apresentação final, incluindo slides e pontos de discussão.
 
 ## Equipe
 * Marco Amaro Oliveira [@MarcoOliveira](https://github.com/marcoamarooliveira)
