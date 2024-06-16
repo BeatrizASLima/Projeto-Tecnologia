@@ -51,6 +51,4 @@ Na pasta [src](markdown):
   - **c3.md**: [Capítulo 3]- Produto: Descrição do produto final, funcionalidades implementadas e tecnologias utilizadas.
   - **c4.md**: [Capítulo 4] - Apresentação: Preparação para a apresentação final, incluindo slides e pontos de discussão.
 
-## Equipe
-* Marco Amaro Oliveira [@MarcoOliveira](https://github.com/marcoamarooliveira)
-* Outros membros da equipe [adicione outros]
+
