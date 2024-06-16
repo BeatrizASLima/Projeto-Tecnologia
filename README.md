@@ -49,13 +49,13 @@ Um projeto que demonstra o uso de HTML e CSS para criar um site de múltiplas p�
 
 
 ### Apresentação do Projeto
-* Capítulo 1: [Apresentação do Projeto](src/c1.md)
+* Capítulo 1: [src](c1.md)
 ### Interface do Usuário
-* Capítulo 2: [Protótipo e Mapa do Site](src/c2.md)
+* Capítulo 2: [src](c1.md)
 ### Produto
-* Capítulo 3: [Produto](src/c3.md)
+* Capítulo 3: [src](c1.md)
 ### Apresentação
-* Capítulo 4: [Apresentação](src/c4.md)
+* Capítulo 4: [src](c1.md)
 
 ## Equipe
 * Marco Amaro Oliveira [@MarcoOliveira](https://github.com/marcoamarooliveira)
